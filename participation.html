@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="C:\Users\user\Desktop\курсовая\img\logo.png"
+    />
+    <link rel="stylesheet" href="styles/index.css" type="text/css" />
+    <link rel="stylesheet" href="styles/participation.css " type="text/css" />
+    <title>Кинофестивали</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- меню-бургер -->
+    <nav class="navbar">
+      <div class="logo">
+        <a href="/"><img src="img\logo.png" alt="Лого" /></a>
+      </div>
+      <ul class="nav-links">
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger"
+          ><span class="hamburger-line"></span
+        ></label>
+        <div class="menu">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="festivals.html">Кинофестивали</a></li>
+          <li><a href="films.html">Ожидаемые фильмы</a></li>
+          <li><a href="gallery.html">Галерея</a></li>
+          <li><a href="participation.html">Участие</a></li>
+        </div>
+      </ul>
+    </nav>
+
+    <div class="page">
+      <form class="js-form" action="" novalidate>
+        <div class="form__group">
+          <input
+            type="text"
+            class="input js-input"
+            name="name"
+            placeholder="Имя"
+          />
+        </div>
+        <div class="form__group">
+          <input
+            type="text"
+            class="input js-input"
+            name="last name"
+            placeholder="Фамилия"
+          />
+        </div>
+        <div class="form__group">
+          <input
+            type="email"
+            class="input js-input js-input-email"
+            name="email"
+            placeholder="Email"
+          />
+        </div>
+        <div class="form__group">
+          <input
+            type="tel"
+            class="input js-input js-input-phone"
+            name="phone"
+            placeholder="Номер телефона"
+          />
+        </div>
+        <div class="form__group">
+          <input
+            type="checkbox"
+            class="checkbox__input js-input-checkbox"
+            id="privacy_check"
+          />
+          <label class="checkbox__label" for="privacy_check"
+            >Подтвердить действие</label
+          >
+        </div>
+        <button class="btn" type="submit">Отправить</button>
+      </form>
+    </div>
+
+    <br />
+    <div class="button3">
+      <a href="index.html" class="butt"> Вернуться на главную </a>
+    </div>
+
+    <footer>
+      <address>
+        <i>Агентство по продвижению фильмов на кинофестивали</i>
+      </address>
+      <br />
+      <div class="middle">
+        <a class="btn1" href="">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a class="btn1" href="">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a class="btn1" href="">
+          <i class="fa-brands fa-vk"></i>
+        </a>
+      </div>
+    </footer>
+    <script src="scripts\form.js"></script>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+article {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  background-color: white;
+  padding: 3%;
+  margin-top: 2cm;
+  margin-bottom: 2cm;
+  border-radius: 2%;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  color: #1897e1;
+  font-weight: bold;
+}
+.leftimg {
+  float: left; /* Выравнивание по левому краю */
+  margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+  position: relative;
+}
+
+a {
+  color: #1897e1;
+  font-family: serif;
+  font-size: 16px;
+}
+
+a:hover,
+h2:hover {
+  color: red;
+}
+.fest1 {
+  background-image: url("../img/fon.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.fest2 {
+  font-size: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.584);
+  padding: 3%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.leftimg {
+  transition: 1s; /* Время эффекта */
+}
+.leftimg:hover {
+  transform: scale(2); /* Увеличиваем масштаб */
+}
